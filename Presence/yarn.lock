@@ -6445,6 +6445,11 @@ update-browserslist-db@^1.0.4:
     escalade "^3.1.1"
     picocolors "^1.0.0"
 
+updates@^13.1.2:
+  version "13.1.2"
+  resolved "https://registry.yarnpkg.com/updates/-/updates-13.1.2.tgz#aa6e8fe34cd0d4b87ec229ab524b8460826f5c7c"
+  integrity sha512-wixXdKufbYwxKFMqWmkjnf6vlkZ8Lpx8fWYFrkxawNO9j7xlGQHCtbqW7LHkl/+tl57fFlvgvQ5dAIrseqk3Qw==
+
 urix@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/urix/-/urix-0.1.0.tgz#da937f7a62e21fec1fd18d49b35c2935067a6c72"
