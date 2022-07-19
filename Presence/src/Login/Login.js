@@ -11,7 +11,7 @@ function Login({ navigation }) {
       <Inputs place="E-mail" />
       <Inputs place="Senha" />
       <Text>Não tem uma conta ainda?</Text>
-      <Button 
+      <Button
       title='Registre-se'
       onPress={() => navigation.navigate('Form')}
       ></Button>
