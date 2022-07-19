@@ -1,7 +1,7 @@
 import React from "react";
 import { Div, Titm, TitM } from "./Styles";
 import { Text, Button } from "react-native";
-import Inputs from "../components/inputs/input";
+import Inputs from "../../components/inputs/input";
 
 function Login({ navigation }) {
   return (
