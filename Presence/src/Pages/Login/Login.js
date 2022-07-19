@@ -1,6 +1,6 @@
 import React from "react";
 import { Div, Titm, TitM } from "./styles";
-import { Text, Button, Pressable } from "react-native";
+import { Text, Button } from "react-native";
 import Inputs from "../../components/inputs/input";
 import Pressables from "../../components/pressables/pressable";
 
@@ -11,7 +11,7 @@ function Login({ navigation }) {
       <Titm>Estudante</Titm>
       <Inputs place="E-mail" />
       <Inputs place="Senha" />
-      <Pressable />
+      <Pressables />
       <Text>Não tem uma conta ainda?</Text>
       <Button 
       title='Registre-se'
