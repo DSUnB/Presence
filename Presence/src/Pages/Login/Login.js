@@ -8,8 +8,8 @@ function Login({ navigation }) {
     <Div>
       <TitM>Bem vindo,</TitM>
       <Titm>Estudante!</Titm>
-      <Inputs place='Matrícula' />
-      <Inputs place="Senha" />
+      <Inputs place='             Matrícula' iconeF='mail' />
+      <Inputs place="             Senha" iconeM='lock-outline' secure='true'/>
       <Text>Não tem uma conta ainda?</Text>
       <Button
       title='Registre-se'
@@ -20,3 +20,4 @@ function Login({ navigation }) {
 }
 
 export default Login;
+
