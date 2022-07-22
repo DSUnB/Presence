@@ -9,7 +9,7 @@ export default function Inputs(props) {
     <Div>
       <IconF style={style.icone} name={props.iconeF} size={23}/>
       <IconM style={style.icone} name={props.iconeM} size={23}/>
-      <Input placeholder={props.place} secureTextEntry={props.secure}/>
+      <Input placeholder={props.place}/>
     </Div>
   )
 }
@@ -20,7 +20,7 @@ const style = StyleSheet.create({
     position: 'absolute',
     left: 10,
     bottom: 19,
-    color: '#7B6F72',
-  }
+    color: '#7B6F72',}
+
  })
 
